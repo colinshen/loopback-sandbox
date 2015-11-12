@@ -1,0 +1,23 @@
+{
+  "name": "Fund",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "values": {
+      "type": "hasMany",
+      "model": "Value",
+      "foreignKey": "fundId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

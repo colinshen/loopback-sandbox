@@ -31,5 +31,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Fund": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Value": {
+    "dataSource": "db",
+    "public": true
   }
 }
